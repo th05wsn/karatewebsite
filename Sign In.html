@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Everything inside the head is for the browser. The bits that the user can see are the "Title" and the icon-->
+	<head>
+        <meta charset="utf-8" /><!--This essentially what tells the browser the language and character set that you are using-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" /><!--This are the words that services like Google will look at to find out what your site is about-->
+        <meta name="author" content="" /><!--This is information about the developer-->
+        <title>Sign up</title><!--This is the text that appears in the tab at the top of the window-->
+        <link rel="icon" type="image/x-icon" href="assets/karatelogo.png" /><!-- This is the icon that appears next the tab title at the top of page-->
+        <link href="css/styles.css" rel="stylesheet" /><!-- Core theme CSS (includes Bootstrap). This is the file that tells the page how to present the content-->
+    </head>
+    <body>
+	
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Sign Up</a><!--This can be replaced with an image if you woulld rather have that on your page-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0"><!--All of the items in the navigation bar are a part of the <ul> list-->
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li> <!--This is an example of a link item in the nav bar and it has a section to show the active page with a different colour-->
+                                                <!--The following <li> tag adds a differnt type of menu link, one that uses a drop down option-->
+						<li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="ourstory.html">Our Story</a></li>
+                                <li><a class="dropdown-item" href="donate.html">Donate</a></li>
+                                <li><a class="dropdown-item" href="htfu.html">How to Find Us</a></li>
+                            </ul>
+                        </li><!--End of the drop down list menu option-->
+                    </ul><!--End of the list that the menu items are a part of-->
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="col-6">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                <input type="name" class="form-control" id="exampleInputname" name="username">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Password</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" name="password">
+                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                <button type="submit" class="registerbtn">Register</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-3">
+            
+          </div>
+        </div>        
+    </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

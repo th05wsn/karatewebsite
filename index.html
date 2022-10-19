@@ -1,0 +1,111 @@
+<!--This is a template for Level 2 ICT to complete the website for Unit 13-->
+<!DOCTYPE html>
+<html lang="en">
+    <!--Everything inside the head is for the browser. The bits that the user can see are the "Title" and the icon-->
+	<head>
+        <meta charset="utf-8" /><!--This essentially what tells the browser the language and character set that you are using-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" /><!--This are the words that services like Google will look at to find out what your site is about-->
+        <meta name="author" content="" /><!--This is information about the developer-->
+        <title>Karate York</title><!--This is the text that appears in the tab at the top of the window-->
+        <link rel="icon" type="image/x-icon" href="assets/karatelogo.png" /><!-- This is the icon that appears next the tab title at the top of page-->
+        <link href="css/styles.css" rel="stylesheet" /><!-- Core theme CSS (includes Bootstrap). This is the file that tells the page how to present the content-->
+    </head>
+    <body>
+	
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Karate York</a><!--This can be replaced with an image if you woulld rather have that on your page-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0"><!--All of the items in the navigation bar are a part of the <ul> list-->
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li> <!--This is an example of a link item in the nav bar and it has a section to show the active page with a different colour-->
+                                                <!--The following <li> tag adds a differnt type of menu link, one that uses a drop down option-->
+						<li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="ourstory.html">Our Story</a></li>
+                                <li><a class="dropdown-item" href="donate.html">Donate</a></li>
+                                <li><a class="dropdown-item" href="htfu.html">How to Find Us</a></li>
+                            </ul>
+                        </li><!--End of the drop down list menu option-->
+                    </ul><!--End of the list that the menu items are a part of-->
+                </div>
+            </div>
+        </nav>
+		<!--This is the end of the code for the responsive nav bar-->
+		
+        <!-- Page content-->
+        <div class="container">
+		
+			<div class="row">
+                <div class="col-8">
+                    <img src="assets/karatelogo.png" alt="karate logo">
+                    <p> 
+                </div>
+                <div class="col-2">
+                    <button type="button" class="btn btn-outline-dark"><a href="login in.html">Login</a></button>
+                </div>
+                <div class="col-2">
+                    <button type="button" class="btn btn-outline-dark"><a href="Sign In.html">Sign Up</a></button>
+                </div>
+            </div>
+		<div class ="container">
+            <div class="row">
+                <div class="col-3">
+                    <p></p>
+                </div>
+                <div class="col-6">
+                    <h><b><u>Welcome to York Karate</u></b></h>
+                </div>
+                <div class="col-3">
+                    <p></p>
+                </div>
+            
+            </div>
+        </div>
+        <div class="container">
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<!--The images in the carousel can be different sizes, but it looks better when they are all the same-->
+					<!--This is the HTML for the first image-->
+					<div class="carousel-item active">
+						<img src="assets/karatestock1.jpg" class="d-block w-100" alt="Banner Image 1">
+					</div><!--End of first image-->
+					<!--This is the HTML for the second image-->
+					<div class="carousel-item">
+						<img src="assets/karatestock2.jpg" class="d-block w-100" alt="Banner Image 2">
+					</div><!--End of second iamge-->
+					<!--This is the HTML for the third image-->
+					<div class="carousel-item">
+						<img src="assets/karatestock3.jpg" class="d-block w-100" alt="Banner Image 3">
+					</div><!--End of third image-->
+					<!--To add more images, you can copy the HTML for one of the images and paste it here-->
+				</div>
+				<!--This script here control the arrows that are used to move around the banner images-->
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+				<!--This is the end of the HTML that inserts the buttons to control moving throught the banner images-->
+			</div>
+        </div><!--This is the end of the section where all of the page content goes-->
+				
+		
+		<!--These links are to files that support some additional functions in your page.-->
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+
+
+
+
+
+</html>
